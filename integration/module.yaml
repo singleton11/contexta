@@ -1,0 +1,10 @@
+product:
+  type: lib
+  platforms: [ jvm ]
+
+dependencies:
+  - $libs.langchain4j.core
+  - $libs.langchain4j.openai
+  - $libs.langchain4j.mcp
+  - $libs.logback.classic
+  - $libs.kotlinx.coroutines.core: exported

@@ -1,0 +1,7 @@
+product: jvm/app
+
+dependencies:
+  - ../integration
+  - $libs.mordant
+  - $libs.mordant.coroutines
+  - $libs.mordant.markdown

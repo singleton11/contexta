@@ -1,0 +1,23 @@
+[versions]
+langchain4j = "1.0.0-beta2"
+logback = "1.5.18"
+mcp = "0.8.1"
+kotlinx-coroutines = "1.10.2"
+mordant = "3.0.2"
+
+[libraries]
+# LangChain4j libraries
+langchain4j-core = { module = "dev.langchain4j:langchain4j", version.ref = "langchain4j" }
+langchain4j-openai = { module = "dev.langchain4j:langchain4j-open-ai", version.ref = "langchain4j" }
+langchain4j-mcp = { module = "dev.langchain4j:langchain4j-mcp", version.ref = "langchain4j" }
+
+# Logging
+logback-classic = { module = "ch.qos.logback:logback-classic", version.ref = "logback" }
+
+# coroutines
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines" }
+
+# mordant terminal UI
+mordant = { module = "com.github.ajalt.mordant:mordant", version.ref = "mordant" }
+mordant-coroutines = { module = "com.github.ajalt.mordant:mordant-coroutines", version.ref = "mordant" }
+mordant-markdown = { module = "com.github.ajalt.mordant:mordant-markdown", version.ref = "mordant" }
